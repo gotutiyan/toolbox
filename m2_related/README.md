@@ -19,7 +19,7 @@
 
 * `-error_pos <image_path>`：誤りが関係する品詞の頻度をグラフ化する．グラフは画像として出力．
 
-  ![ep](/Users/gotoutakumi/Desktop/git/Scripts/m2_related/images/ep.png)
+  ![ep](images/ep.png)
 
 
 
