@@ -1,6 +1,6 @@
 # Header Maker for MD
 
-Code for making headers for markdown document.
+Code for making headers for a markdown document.
 
 # Usage
 
@@ -13,53 +13,65 @@ Code for making headers for markdown document.
 # Demo
 
 ```
-python3 python3 header_marker_for_md.py --input demo/sample_input.md --out demo/sample_out.md
+python3 header_marker_for_md.py --input demo/sample_input.md --out demo/sample_out.md
 ```
 
 * demo/sample_input.md
 
   ```md
-  # This
+  # 1
+  This is a sample sentence.
   
-  ### is
+  ### 2
+  This is a sample sentence.
   
-  ##### demo
+  #### 3
+  This is a sample sentence.
   
-  # This
+  ##### 4
+  This is a sample sentence.
   
-  ## is
+  ### 5
+  This is a sample sentence.
   
-  ### also
+  ##### 6
+  This is a sample sentence.
   
-  #### demo
-  
+  # 7
+  This is a sample sentence.
   ```
 
-* sample_out.md
+* demo/sample_out.md
 
   ```
-  * [This](# This)
-    * [is](### is)
-      * [demo](##### demo)
-  * [This](# This)
-    * [is](## is)
-      * [also](### also)
-        * [demo](#### demo)
+  * [1](# 1)
+  	* [2](### 2)
+  		* [3](#### 3)
+  			* [4](##### 4)
+  	* [5](### 5)
+  		* [6](##### 6)
+  * [7](# 7)
   
-  # This
+  # 1
+  This is a sample sentence.
   
-  ### is
+  ### 2
+  This is a sample sentence.
   
-  ##### demo
+  #### 3
+  This is a sample sentence.
   
-  # This
+  ##### 4
+  This is a sample sentence.
   
-  ## is
+  ### 5
+  This is a sample sentence.
   
-  ### also
+  ##### 6
+  This is a sample sentence.
   
-  #### demo
-  
+  # 7
+  This is a sample sentence.
   ```
-
+  
   
