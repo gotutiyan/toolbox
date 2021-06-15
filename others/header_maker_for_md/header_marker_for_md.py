@@ -14,7 +14,6 @@ def main(args):
     sharp2deep = {}
     for i, sharp in enumerate(sharp_list):
         sharp2deep[sharp] = i
-    print(sharp2deep)
 
     if args.output == None:
         args.output = '.'.join(args.input.split('.')[:-1]) + '.out.md'
